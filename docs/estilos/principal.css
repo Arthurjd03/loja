@@ -1,0 +1,45 @@
+.fundo {
+    position: relative;
+    background-color: #d7c1a1;
+    color: #5e3b1f;
+    padding: 60px 20px;
+    font-family: 'Opens Sans', sans-serif;
+    overflow: hidden;
+    height: 150px;
+}
+
+.titulo {
+    display: grid;
+    grid-area: 1 / 2 / -2 / -1;
+}
+.fundo h1 {
+    font-size: 3em;
+    color: #5e3b1f;
+    margin: 0px;
+    font-weight: bold;
+    z-index: 1;
+    position: relative;
+}
+.fundo p {
+    font-size: 1.2em;
+    margin: 10px 0px;
+    letter-spacing: 2px;
+    z-index: 1;
+    position: relative;
+}
+
+.shape {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10%;
+    width: 320px;
+    background-color: black;
+    transform: skew(20deg);
+    transition: transform 2s ease;
+    z-index: 0;
+
+}
+.shape a:hover {
+    transform: skewX(-20deg) scale(1.1);
+}
