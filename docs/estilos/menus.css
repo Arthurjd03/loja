@@ -3,21 +3,20 @@
     padding: 0px;
 }
 nav {
-    background-color: #35250f;
+    background-color: white;
 }
 #menu {
     
 }
 
 button {
-    background-color: rgb(255, 255, 255);
     margin: 5px;
     padding: 8px;
     border-radius: 20px;
 }
 
 .links ul {
-    background-color: white;
+    background-color: #35250f;
     list-style: none;
     display: flex;
     gap: 20px;
@@ -28,7 +27,8 @@ button {
 }
 .links a {
     text-decoration: none;
-    
+    color: white;
+
 }
 main {
 
@@ -40,6 +40,7 @@ main h1 {
 footer {
     text-align: center;
     
+
 }
 footer > a {
     text-decoration: none;

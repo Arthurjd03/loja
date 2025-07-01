@@ -33,7 +33,7 @@
     bottom: 0;
     right: 10%;
     width: 260px;
-    background-color: black;
+    background-color: #35250f;
     transform: skew(20deg);
     transition: transform 1s ease-in-out;
     z-index: 0;
