@@ -4,16 +4,12 @@
     position: relative;
     background-color: #d7c1a1;
     padding: 60px 20px;
-    font-family: 'Opens Sans', sans-serif;
     overflow: hidden; /*Garante que nada vaze do fundo*/
     height: 190px;
 }
 
-.titulo {
-    display: grid;
-    grid-area: 1 / 2 / -2 / -1;
-}
 .fundo h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3em;
     color: #5e3b1f;
     margin: 0px;
@@ -45,19 +41,3 @@
     transform: skewX(-20deg) scale(1.1);
 }
 
-@media (min-width: 1200px) {
-    .hero {
-        padding: 80px 60px;
-    }
-    .shape {
-        width: 280px;
-        right: 20%;
-    }
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    .fundo h1 {
-        font-size: 4em;
-    }
-}

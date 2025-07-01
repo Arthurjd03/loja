@@ -1,0 +1,43 @@
+@media (min-width: 1200px) {
+    .fundo {
+        padding: 80px 60px;
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+    .shape {
+        width: 280px;
+        right: 20%;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .fundo h1 {
+        font-size: 5em;
+    }
+    
+}
+@media (max-width: 768px) {
+    .fundo {
+        height: 130px;
+        padding: 50px 40px;
+        max-width: 768px;
+    }
+    .shape {
+        left: 20%;
+        right: auto;
+        width: 190px;
+    }
+    .container {
+
+    }
+    .fundo h1, p {
+        text-align: end;
+        font-size: 2.5em;
+    }
+    .fundo > p {
+
+    }
+}
+
+

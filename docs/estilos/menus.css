@@ -1,5 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 nav {
-    
+
 }
 .caixa {
 
@@ -7,12 +11,23 @@ nav {
 #menu {
 
 }
-button {
+#menu.ativo {
 
+}
+button {
+    margin: 10px;
+    padding: 10px;
 }
 #burguer {
 
 }
 nav > ul {
+
+}
+main {
+
+}
+
+main h1 {
 
 }

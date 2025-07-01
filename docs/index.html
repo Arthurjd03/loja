@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos/header.css">
     <link rel="stylesheet" href="estilos/principal.css">
     <link rel="stylesheet" href="estilos/menus.css">
+    <link rel="stylesheet" href="estilos/media-querys.css">
     <title>Loja Ajd</title>
 </head>
 <body>
     <div class="container">
         <header class="fundo">
-            <div class="titulo">
+            <div>
                 <h1>AJD This <br>Is Style</h1>
             </div>
             <p>Arthur jose</p>
@@ -21,7 +22,7 @@
         </header>
 
         <nav class="caixa" id="menu">
-            <button><i id="burguer" class="material-icons">menu</i>
+            <button id="burguer"><i  class="material-icons" onclick="clickmenu()">menu</i>
             </button>
             
             <ul >
