@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @media (min-width: 1200px) {
     .fundo {
         padding: 80px 60px;
@@ -24,20 +26,21 @@
         max-width: 768px;
     }
     .shape {
-        left: 20%;
+        left: 12%;
         right: auto;
         width: 190px;
+        transform: skew(-20deg);
     }
     .container {
-
+        max-width: 768px;
+        margin: 0 auto;
     }
     .fundo h1, p {
         text-align: end;
         font-size: 2.5em;
     }
-    .fundo > p {
 
-    }
+
 }
 
 
