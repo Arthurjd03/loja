@@ -9,16 +9,18 @@
     .shape {
         width: 280px;
         right: 20%;
-        color: black;
     }
     .container {
         max-width: 1200px;
         margin: 0 auto;
     }
-    .fundo h1, p {
+    .fundo h1 {
         font-size: 4em;
         color: black;
         transition: font-size .8s ease, color 1.5s ease;
+    }
+    .fundo > p {
+        text-align: left;
     }
     .links ul li a {
         font-size: 2em;
@@ -29,8 +31,12 @@
     .links ul li a {
         font-size: 2em;
     }    
-    .fundo h1, p {
+    .fundo h1 {
+        text-align: left;
         transition: font-size 0.4s ease, black 1.5s ease;
+    }
+    .fundo > p {
+        text-align: left;
     }
 }
 
@@ -41,6 +47,7 @@
         max-width: 768px;
     }
     .shape {
+        background-color: black;
         left: 12%;
         right: auto;
         width: 190px;
@@ -50,10 +57,14 @@
         max-width: 768px;
         margin: 0 auto;
     }
-    .fundo h1, p {
+    .fundo h1 {
+        color: white;
         text-align: end;
         font-size: 2.5em;
         transition: font-size 0.4s ease, black 1.5s ease;
+    }
+    .fundo > p {
+        text-align: end;
     }
     .links ul li a {
         font-size: 1.3em;
