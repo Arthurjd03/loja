@@ -1,10 +1,13 @@
 @charset "UTF-8";
 
 @media (min-width: 1200px) {
+
     .fundo {
         padding: 80px 60px;
-        max-width: 1200px;
-        margin: 0px auto;
+    }
+    .fundo h1 {
+        font-size: 4em;
+        color: black;
     }
     .shape {
         width: 280px;
@@ -12,77 +15,33 @@
     }
     .container {
         max-width: 1200px;
-        margin: 0 auto;
     }
-    .fundo h1 {
-        font-size: 4em;
-        color: black;
-        transition: font-size .8s ease, color 1.5s ease;
-    }
-    .fundo > p {
-        text-align: left;
-    }
+
     .links ul li a {
-        font-size: 2em;
+        font-size: 1.3em;
     }
+
     #menu button {
         display: none;
-    }
-    footer {
-        background-color: #35250f;
-        color: white;
-        text-align: center;
-        font-size: 1em;
-        padding: 10px;
-    }
-    footer p {
-        margin: 0;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    footer a{
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    footer a:hover {
-        text-decoration: underline;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-    .links ul li a {
-        font-size: 2em;
-    }    
+
     .fundo h1 {
         text-align: left;
-        transition: font-size 0.4s ease, black 1.5s ease;
+        font-size: 3em;
     }
     .fundo > p {
         text-align: left;
+    }
+    .links ul li a {
+        font-size: 1.3em;
     }
     #menu button {
         display: none;
     }
 
-    footer {
-    background-color: #35250f;
-    color: white;
-    text-align: center;
-    font-size: 1em;
-    padding: 10px;
-    }
-    footer p {
-        margin: 0;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    footer a{
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    footer a:hover {
-        text-decoration: underline;
-    }
 }
 
 @media (max-width: 768px) {
@@ -90,6 +49,14 @@
         height: 130px;
         padding: 50px 40px;
         max-width: 768px;
+    }
+    .fundo h1 {
+        font-size: 2.5em;
+        color: white;
+        text-align: end;
+    }    
+    .fundo > p {
+        text-align: end;
     }
     .shape {
         background-color: #35250f;
@@ -100,16 +67,8 @@
     }
     .container {
         max-width: 768px;
-        margin: 0 auto;
     }
-    .fundo h1 {
-        color: white;
-        text-align: end;
-        font-size: 2.5em;
-    }
-    .fundo > p {
-        text-align: end;
-    }
+
     .links ul li a {
         display: none;
     }
@@ -121,25 +80,11 @@
     #menu button {
         display: block;
     }
-
     footer {
-        background-color: #35250f;
         display: flex;
         justify-content: center;
-        width: 235px;
-        
+        width: 100%;
     }
-    footer a {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    footer p {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: white;
-    }
-
 }
 
 

@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+.container {
+    margin: o auto;
+}
 .fundo {
     max-width: 1200px;
     margin: 0 auto;
@@ -11,13 +13,12 @@
 }
 
 .fundo h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 3em;
     color: #5e3b1f;
     margin: 0px;
     font-weight: bold;
     z-index: 1;
     position: relative;
+    transition: font-size .8s ease, color 1.5s ease;
 }
 .fundo p {
     font-size: 1.2em;
@@ -39,7 +40,7 @@
     z-index: 0;
 
 }
-.shape a:hover {
+.shape :hover {
     transform: skewX(-20deg) scale(1.1);
 }
 

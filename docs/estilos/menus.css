@@ -4,12 +4,14 @@
 }
 
 body {
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav {
 
 }
 #menu button {
+    background-color: #35250f;
+    color: white;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -26,10 +28,12 @@ nav {
     padding: 0px;
     
 }
-.links a {
+.links ul li a {
     text-decoration: none;
     color: white;
-
+}
+.links a:hover {
+    text-decoration: underline;
 }
 main {
 
@@ -37,4 +41,23 @@ main {
 
 main h1 {
 
+}
+
+footer {
+    background-color: #35250f;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+}
+footer p {
+    margin: 0;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
 }
