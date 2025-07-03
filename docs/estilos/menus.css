@@ -2,17 +2,18 @@
     margin: 0px;
     padding: 0px;
 }
-nav {
-    background-color: white;
-}
-#menu {
-    
-}
 
-button {
-    margin: 5px;
-    padding: 8px;
-    border-radius: 20px;
+body {
+
+}
+nav {
+
+}
+#menu button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
 }
 
 .links ul {
@@ -36,12 +37,4 @@ main {
 
 main h1 {
 
-}
-footer {
-    text-align: center;
-    
-
-}
-footer > a {
-    text-decoration: none;
 }
