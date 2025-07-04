@@ -6,9 +6,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-nav {
-
-}
 #menu button {
     background-color: #35250f;
     color: white;
@@ -24,9 +21,6 @@ nav {
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin: 0px;
-    padding: 0px;
-    
 }
 .links ul li a {
     text-decoration: none;
