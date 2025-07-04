@@ -20,8 +20,10 @@
     .links ul li a {
         font-size: 1.3em;
     }
-
     #menu button {
+        display: none;
+    }
+    #fechar-menu {
         display: none;
     }
 }
@@ -41,7 +43,9 @@
     #menu button {
         display: none;
     }
-
+    #fechar-menu {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -85,6 +89,36 @@
         justify-content: center;
         width: 100%;
     }
+    .links {
+        position: fixed;
+        left: -500px;
+        transition: 0.6s ease-in-out 0.2s;
+    }
+
+/* Quando a classe .ativo é adicionada via JS */
+    .links.ativo {
+            
+        display: flex;
+        left: 0px;
+        width: 250px;
+        height: 100vh;
+        background-color: #35250f;
+        flex-direction: column;    
+        gap: 20px;   
+        padding: 20px; 
+        
+        z-index: 1000;
+    }
+
+    #fechar-menu {
+        align-self: flex-end;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
 }
 
 
