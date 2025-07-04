@@ -125,9 +125,8 @@
         transition: 0.6s ease-in-out;
     }
     .contato {
-        width: 30%;
+        width: 50%;
         box-sizing: border-box;
-
     }
 
     .contato form {
@@ -136,7 +135,7 @@
     }
     .contato input,
     .contato textarea {
-        width: 90%;
+        width: 95%;
         font-size: 16px;
         margin-bottom: 15px;
     }
