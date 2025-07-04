@@ -30,11 +30,16 @@ html {
     border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.8s ease;
+    transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: inline-block;
 }
 
 .botao-anuncio:hover {
-    background-color: #584933;
+    animation: bounce 0.8s ease-in-out infinite;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
 
