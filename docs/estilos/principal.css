@@ -28,6 +28,7 @@ html {
     color: white;
     padding: 12px 24px;
     border-radius: 4px;
+    box-shadow: 2px 2px 2px black;
     text-decoration: none;
     font-weight: bold;
     transition: transform 0.3s ease-in-out;
@@ -42,4 +43,44 @@ html {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
 }
-
+.contato {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(#35250f, #836c4c);
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px black;
+}
+.contato h2 {
+    text-align: center;
+    color: white;
+    margin: 0px 0px 20px 0px;
+}
+.contato form {
+    display: flex;
+    flex-direction: column;
+}
+.contato input, .contato textarea {
+    margin: 0px 0px 15px 0px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contato textarea {
+    resize: vertical;
+}
+.contato button {
+    padding: 10px;
+    background-color: #35250f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.contato button:hover {
+    background-color: white;
+    color: black;
+}
