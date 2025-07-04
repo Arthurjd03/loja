@@ -44,7 +44,7 @@ html {
   50% { transform: translateY(-10px); }
 }
 .contato {
-    max-width: 400px;
+    max-width: 600px;
     margin: 20px auto;
     padding: 20px;
     background: linear-gradient(#35250f, #836c4c);
